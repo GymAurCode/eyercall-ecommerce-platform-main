@@ -54,6 +54,7 @@ const Login = () => {
         <h1 className='font-bold text-2xl text-black'>Welcome back</h1>
         <p className='text-gray-400 text-xs mb-4'>Login to your account to continue shopping</p>
 
+<<<<<<< HEAD
         <form className='flex flex-col' onSubmit={handleSubmit}>
           {/* Email */}
           <label className='font-bold text-xs p-1 ml-3 text-black'>Email</label>
@@ -65,6 +66,11 @@ const Login = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
+=======
+    // container
+    <div className='flex justify-center items-center h-screen flex-col'>
+      <div className='flex justify-center items-center border border-gray-200 shadow-lg rounded-md px-7 py-15 flex-col '>
+>>>>>>> ee8c42afde82c4521866edec81fec6476fe21980
 
           {/* Password */}
           <label className='font-bold text-xs p-1 ml-3 mt-3 text-black'>Password</label>
