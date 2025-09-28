@@ -4,7 +4,7 @@ const register = () => {
   return (
         // container
         <div className='flex justify-center items-center h-screen flex-col '>
-          <div className='flex justify-center items-center border border-gray-200 shadow-lg rounded-md p-5 flex-col '  >
+          <div className='flex justify-center items-center border border-gray-200 shadow-lg rounded-md px-7 py-13 flex-col '  >
     
           <h1 className='font-bold text-2xl'>Welcome</h1>
           <p className='text-gray-400 text-xs'>Create a new account</p>

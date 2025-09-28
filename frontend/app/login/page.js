@@ -4,8 +4,8 @@ const login = () => {
   return (
 
     // container
-    <div className='flex justify-center items-center h-screen flex-col '>
-      <div className='flex justify-center items-center border border-gray-200 shadow-lg rounded-md p-5 flex-col '  >
+    <div className='flex justify-center items-center h-screen flex-col'>
+      <div className='flex justify-center items-center border border-gray-200 shadow-lg rounded-md px-7 py-15 flex-col '>
 
       <h1 className='font-bold text-2xl'>Welcome back</h1>
       <p className='text-gray-400 text-xs'>Login to your account to continue shopping</p>
